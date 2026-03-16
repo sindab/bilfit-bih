@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --font-display: "Space Grotesk", sans-serif;
+
+  --color-industrial-bg: #E4E3E0;
+  --color-industrial-ink: #141414;
+  --color-industrial-accent: #F27D26;
+}
+
+@layer base {
+  body {
+    @apply bg-industrial-bg text-industrial-ink font-sans antialiased;
+  }
+}
+
+@layer components {
+  .data-row {
+    @apply grid grid-cols-[40px_1.5fr_1fr_1fr] p-4 border-b border-industrial-ink transition-colors duration-200 cursor-pointer hover:bg-industrial-ink hover:text-industrial-bg;
+  }
+
+  .col-header {
+    @apply font-serif italic text-[11px] opacity-50 uppercase tracking-wider;
+  }
+
+  .data-value {
+    @apply font-mono tracking-tighter;
+  }
+}
