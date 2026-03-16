@@ -18,7 +18,7 @@ export default function Hero() {
           </div>
           
           <h1 className="font-display text-6xl md:text-8xl font-bold leading-[0.9] tracking-tighter uppercase mb-8">
-            Précision, <br />
+            Preciznost, <br />
             <span className="text-industrial-accent italic">Just in Time.</span>
           </h1>
           
