@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "clean": "rm -rf dist",
     "lint": "tsc --noEmit",
-    "start": "npx serve dist -l 3000 --no-clipboard"
+    "start": "npx serve dist -l 0.0.0.0:3000 --no-clipboard"
   },
   "dependencies": {
     "@google/genai": "^1.29.0",
