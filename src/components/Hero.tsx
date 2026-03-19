@@ -54,7 +54,7 @@ export default function Hero() {
           className="relative aspect-square lg:aspect-auto lg:h-[600px] bg-industrial-ink/5 rounded-2xl overflow-hidden border border-industrial-ink/10"
         >
           <img 
-            src="https://picsum.photos/seed/cnc-machine/1200/1200" 
+            src="https://picsum.photos/id/341/1200/1200" 
             alt="CNC Machine" 
             className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
             referrerPolicy="no-referrer"
