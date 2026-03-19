@@ -1,5 +1,6 @@
 import { motion } from "motion/react";
 import { ArrowRight } from "lucide-react";
+import heroImage from "../assets/hero-placeholder.png";
 
 export default function Hero() {
   return (
@@ -54,10 +55,9 @@ export default function Hero() {
           className="relative aspect-square lg:aspect-auto lg:h-[600px] bg-industrial-ink/5 rounded-2xl overflow-hidden border border-industrial-ink/10"
         >
           <img 
-            src="https://picsum.photos/id/341/1200/1200" 
+            src={heroImage} 
             alt="CNC Machine" 
             className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
-            referrerPolicy="no-referrer"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-industrial-bg/40 to-transparent pointer-events-none"></div>
           
