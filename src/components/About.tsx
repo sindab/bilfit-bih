@@ -40,7 +40,7 @@ export default function About() {
           >
             <div className="aspect-[4/5] bg-industrial-ink rounded-3xl overflow-hidden shadow-2xl">
               <img 
-                src="https://picsum.photos/seed/workshop/800/1000" 
+                src="https://images.pexels.com/photos/29976478/pexels-photo-29976478.jpeg" 
                 alt="Bilfit Workshop" 
                 className="w-full h-full object-cover opacity-80"
                 referrerPolicy="no-referrer"
